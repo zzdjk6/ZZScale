@@ -1,0 +1,6 @@
+framework module ZZScale {
+  umbrella header "ZZScale-umbrella.h"
+
+  export *
+  module * { export * }
+}

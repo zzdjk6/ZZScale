@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import ZZScale
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        view.zz_scaleInFactorRelativeByWidth320()
     }
 
     override func didReceiveMemoryWarning() {

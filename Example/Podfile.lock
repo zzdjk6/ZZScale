@@ -1,0 +1,16 @@
+PODS:
+  - ZZScale (0.1.0)
+
+DEPENDENCIES:
+  - ZZScale (from `../`)
+
+EXTERNAL SOURCES:
+  ZZScale:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZZScale: 21e5ef6f516e6ea19abc04f5d4cab0a182f50e68
+
+PODFILE CHECKSUM: 2bf6f09107efe4cf30a69c7e5c9a6bfce98e6161
+
+COCOAPODS: 1.0.1
