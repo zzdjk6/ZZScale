@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZScale_Example' do
+  pod 'ZZScale', :path => '../'
+
+  target 'ZZScale_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
