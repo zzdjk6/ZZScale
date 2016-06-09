@@ -33,13 +33,11 @@ This is how it works:
 
 Here is an example:
 
-You have a scrollable screen that you want all users to see it in just same layout in every devices, you can just insert the code `self.view.zz_scaleByWidth(375)` in `viewDidLoad` of your `UIViewController`.
+You have a scrollable screen that you want all users to see it in just same horizontal layout of iPhone6 in every devices, you can just insert the code `self.view.zz_scaleInFactorRelativeByWidth(375)` in `viewDidLoad` of your `UIViewController`.
 
 Here is another example:
 
-You have a non-scrollable screen that you want all users to see it in just same layout in every devices, you can just insert the code `self.view.zz_scaleByHeight(667)` in `viewDidLoad` of your `UIViewController`.
-
-
+You have a non-scrollable screen that you want all users to see it in just same vertical layout of iPhone6 in every devices, you can just insert the code ` self.view.zz_scaleInFactorRelativeByHeight(667)` in `viewDidLoad` of your `UIViewController`.
                        DESC
 
   s.homepage         = 'https://github.com/zzdjk6/ZZScale'
